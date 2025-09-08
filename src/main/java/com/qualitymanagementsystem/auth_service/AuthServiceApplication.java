@@ -22,7 +22,9 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 public class AuthServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AuthServiceApplication.class, args);
+
+        SpringApplication.run(AuthServiceApplication.class, args);
+        System.out.println("\n\nAuth Service is Compiled!!!!!\n");
 	}
 
 }
